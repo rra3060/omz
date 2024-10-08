@@ -2,25 +2,26 @@ import os
 import shutil
 import platform
 
-try:
-    os = platform.system()
-    os = platform.mac_vers()
-    os = platform.linux_distribution()
-except Exception:
-    pass
+#try:
+    #os = platform.system() # Windows
+    #os = platform.mac_vers() # macOS
+    #os = platform.linux_distribution() # Linux
+#except Exception:
+    #pass
 
-if (os in 'Windows' or os in 'windows')
+#if (os in 'Windows' or os in 'windows')
+    #Absolute_directory_Windows = 
     #
+#if (os in 'Linux' or os in 'linux')
+    #Absolute_directory_Linux = 
     #
-if (os in 'Linux' or os in 'linux')
+#if (os in 'Macos' or os in 'macos' or os in 'Darwin')
+    #Absolute_directory_Macos = 
     #
-    #
-if (os in 'Macos' or os in 'macos')
-    #
-    #
-#!omz_downloader --print_all
+
+!omz_downloader --print_all
 model = input()
-#!omz_downloader --name {model} --precision FP16    
+!omz_downloader --name {model} --precision FP16
 
 default_directory = os.getcwd()
 
